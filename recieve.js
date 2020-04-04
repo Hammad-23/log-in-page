@@ -6,6 +6,7 @@ function add(){
     var specific= "hsyed2633@gmail.com"
 var specific2= "32271147"
 if(data===specific&&pas===specific2){
+    
     alert("yes you are correct")
 } else {
     alert("your data is incorrect")

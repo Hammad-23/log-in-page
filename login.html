@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <style>
         body {
             background-image: url(assets/images/backcover.jpg);
@@ -21,12 +22,7 @@
             
 
         }
-        #btn {
-            background-color: green;
-            color: white;
-            border: none;
-            padding: 8px;
-        }
+       
     
             
         
@@ -37,16 +33,17 @@
     <div id="card">
         <div style="font-family: sans-serif;">
             <label>EMAIL:</label>
-    <input type="text" id="email"/>
+    <input style="width: 200px; margin-left: 425px;" type="text"  id="email" class="form-control"/>
     </div>
     <div id="box1">
         <label>PASSWORD:</label>
-    <input type="password" id="pass"/>
+    <input style="width: 200px; margin-left: 400px;" type="password" id="pass" class="form-control"/>
     </div>
     <div>
-    <button id="btn" onclick="add()">Submit</button>
+    <button id="btn" class="btn btn-primary" onclick="add()">Submit</button>
     </div>
     </div>
+    
     
 </body>
 <script src="recieve.js"></script>
